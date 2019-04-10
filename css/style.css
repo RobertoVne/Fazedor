@@ -304,6 +304,7 @@ footer .util{
     background-color: #e4e4e4;
     color: #000000;
     margin-left: -10px;
+    padding-bottom: 10px;
 }
 footer .util .pagamento{
     font-weight: bold;
@@ -326,6 +327,10 @@ footer .util ul li{
 footer .about{
     color: #c9c9c9;
     background-color: #ffffff;
+    margin-bottom: 10px;
+}
+footer .about img{
+    margin-top: 10px;
 }
 footer .about li{
     list-style-type: none;
