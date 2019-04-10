@@ -142,7 +142,7 @@ header .cart-items{
     transition: #000000 1s linear 0.1s;
     background-color: #f2f6f7;
     border-radius: 2px;
-    transition: transform 1s;
+    transition: transform 0.3s;
 }
 .mais-desejados .principais .novo{
     background-color: #000000;
