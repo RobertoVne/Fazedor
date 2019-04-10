@@ -28,8 +28,6 @@ header .nav-container li:nth-of-type(2) {
 header .navbar-nav{
     background-color: #333333;
     margin-top: 20px;
-}
-header .navbar-nav li:nth-of-type(1){
     margin-left: -20%;
 }
 header .navbar-nav li{
@@ -64,25 +62,24 @@ header .navbar .logo {
     list-style-type: none;
 }
 header .navbar-default .navbar-nav li {
-    background-color: #333333;
+    color: #ffffff;
 }
 header .navbar-default .navbar-nav li a {
-    font-weight: bold;
     color: #ffffff;
+    font-weight: bold;
 }
 header .navbar-default .navbar-nav li a:hover {
     color: #ffffff;
     list-style-type: none;
 }
-header .navbar-default .navbar-nav li a:active{
+header .navbar-default .navbar-nav li a:focus{
     color: #ffffff;
     list-style-type: none;
+    text-decoration: none;
 }
-
 header .cart-items:hover{
     color: #f8595f;
 }
-
 header .navbar-default {
     background-color: #333333;
     color: #ffffff;
@@ -107,9 +104,11 @@ header .cart-items{
 .products .cars {
     padding-bottom: 40px;
 }
-
 .products .cars-row {
     padding-bottom: 20px;
+}
+.products .cars-row img{
+    margin: 0 auto;
 }
 .mais-desejados .principais {
     color: #000000;
@@ -329,4 +328,19 @@ footer .about{
 }
 footer .about li{
     list-style-type: none;
+}
+@media screen and (max-width: 768px) {
+    header .navbar-default .navbar-nav li {
+        margin-bottom: 25px;
+    }
+    header .navbar-nav{
+        margin-left: 30px;
+    }
+    .pagamento{
+        margin-left: 50px;
+        margin-bottom: 10px;
+    }
+    .link-rodape{
+        text-align: center;
+    }
 }
