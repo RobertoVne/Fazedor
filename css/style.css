@@ -336,6 +336,13 @@ footer .about li{
     header .navbar-nav{
         margin-left: 30px;
     }
+    .mais-desejados .product-item{
+        margin: 24px;
+    }
+    footer .link-rodape .atendimento{
+        display: inline-block;
+        text-align: center;
+    }
     .pagamento{
         margin-left: 50px;
         margin-bottom: 10px;
