@@ -104,6 +104,9 @@ header .cart-items{
 .products .cars {
     padding-bottom: 40px;
 }
+.products .cars-row {
+    padding-bottom: 10px;
+}
 .products .cars-row img{
     padding-bottom: 20px;
     margin: 0 auto;
